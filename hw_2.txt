@@ -1,0 +1,140 @@
+ДЗ 2 практика
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON: created new repositore
+ 5. Клонировать репозиторий JSON на локальный компьютер: mkdir git_homework затем cd git_homework затем git clone https://github.com/inatester/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”: cd JSON затем touch new.json
+ 7. Добавить файл под гит: git add .
+ 8. Закоммитить файл: git commit -m "commit file"
+ 9. Отправить файл на внешний GitHub репозиторий: git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+     vim new.json INSERT пишем {
+"person":{
+"name":"Фролова Инна Александровна",
+"age":38,
+"pets":"cat",
+"salary":1000
+} esc :wq
+ 11. Отправить изменения на внешний репозиторий: git add . затем git status затем git commit -m "add personal" затем git push
+ 12. Создать файл preferences.json: touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+     vim preferences.json INSERT пишем 
+{
+"favourite":{
+"movie":"Чародеи",
+"serial":"Почему женщины убивают",
+"season":"Весна",
+"country":"Голландия"
+} esc :wq
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON: touch sklls.json затем vim sklls.json INSERT пишем 
+{
+"skills":{
+"par1":"teory",
+"part2":"JSON XML",
+"part3":"API",
+"part4":"Postman Fidler"
+} esc :wq
+ 15. Отправить сразу 2 файла на внешний репозиторий: git add . git status git commit -m "create 2 files" git push
+ 16. На веб интерфейсе создать файл bug_report.json: create new file
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON: viev file править и написать
+ {
+"bug report":{
+"summary":"The add to cart button on the product page does not work",
+"steps":"Go to the website, go to the product page, click on the button put the product in the cart",
+"expected result":"the product gets into the basket",
+"actual result":"the product is not in the cart"
+ }
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON: git fetch затем git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML: created new repositore
+ 22. Клонировать репозиторий XML на локальный компьютер: cd git_homework затем git clone https://github.com/inatester/XML.git
+ 23. Внутри локального XML создать файл “new.xml”: cd XML touch new.xml
+ 24. Добавить файл под гит: git add .
+ 25. Закоммитить файл: git commit -m "commit file"
+ 26. Отправить файл на внешний GitHub репозиторий: git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ vim new.XML INSERT пишем <person>
+<name>Inna</name>
+<age>38</age>
+<pets>cat</pets>
+<salary>1000</salary>
+</person>
+ 28. Отправить изменения на внешний репозиторий. git add . затем git status затем git commit -m "add personal" затем git push
+ 29. Создать файл preferences.xml: touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+ vim preferences.xml INSERT пишем <favourite>
+<movie>Wizards</movie>
+<serial>Why do women kill</serial>
+<season>Spring</season>
+<country>Holland</country>
+</favourite> esc :wq 
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML touch sklls.xml vim sklls.xml INSERT
+ <skills>
+<par1>teory</par1>
+<par2>JSON XML</par2>
+<par3>API</par3>
+<par4>Postman Fidler</par4>
+</slills> esc :wq
+ 32. Сделать коммит в одну строку. git add . git status git commit -m "create 2 files"
+ 33. Отправить сразу 2 файла на внешний репозиторий. git push
+ 34. На веб интерфейсе создать файл bug_report.xml. create new file
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. viev file править и написать
+ <bug report>
+<summary>The add to cart button on the product page does not work</summary>
+<steps>Go to the website, go to the product page, click on the button put the product in the cart</steps>
+<expected result>The product gets into the basket</expected result>
+<actual result>The product is not in the cart</actual result>
+</bug report>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе: commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML: git fetch затем git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT. created new repositore
+ 2. Клонировать репозиторий TXT на локальный компьютер. cd git_homework затем git clone https://github.com/inatester/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”. cd TXT touch new.txt
+ 4. Добавить файл под гит. git add .
+ 5. Закоммитить файл. git commit -m "commit file"
+ 6. Отправить файл на внешний GitHub репозиторий. git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+ vim new.txt
+Name Inna
+Age 38
+Pets cat
+Salary: 1000
+ 8. Отправить изменения на внешний репозиторий. git add . затем git status затем git commit -m "add personal" затем git push
+ 9. Создать файл preferences.txt: touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+ vim preferences.txt
+My favourites
+movie:Wizards
+serial:Why do women kill
+season:Spring
+country:Holland
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT: touch sklls.txt vim skills.txt
+skills
+1.teory
+2.JSON XML
+3.API
+4.Postman Fidler
+
+ 12. Сделать коммит в одну строку. git add . git status git commit -m "create 2 files"
+ 13. Отправить сразу 2 файла на внешний репозиторий. git push
+ 14. На веб интерфейсе создать файл bug_report.txt. create new file
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. viev file править и написать
+Bug report
+
+Summary: The add to cart button on the product page does not work
+
+Steps: Go to the website, go to the product page, click on the button put the product in the cart
+
+Expected result: The product gets into the basket
+
+Actual result>The product is not in the cart
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT: git fetch затем git pull
